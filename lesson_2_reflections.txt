@@ -1,0 +1,4 @@
+What happens when you initialize a repository? Why do you need to do it?
+.git folder is created. since the name begins with a dot, it's a hidden folder. 
+There are two ways to do it, you can create a completely new repository or you can initialise a repository from a folder that already contains files. There is need if you want to track changes to the files in the folder that are already there or in the new files that you will be creating. 
+The history of changes will be stored in the folder .git as metadata. 

@@ -2,3 +2,7 @@ What happens when you initialize a repository? Why do you need to do it?
 .git folder is created. since the name begins with a dot, it's a hidden folder. 
 There are two ways to do it, you can create a completely new repository or you can initialise a repository from a folder that already contains files. There is need if you want to track changes to the files in the folder that are already there or in the new files that you will be creating. 
 The history of changes will be stored in the folder .git as metadata. 
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+Staging area can't be seen, although it is referred to in a very subtle way in the status once you add the files to the staging area using files are ready for commit.  
+Staging area is an intermediate space between the working directory and git repository. Since it makes more sense to add one logical change per commit, Git provides the functionality of committing selected files' changes at once by adding files to the staging area first, then bundleing them up as one commit. 

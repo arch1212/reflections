@@ -1,0 +1,25 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+With the help of the plus and minus signs, I could easily spot the lines of code that I added and removed, which made it easier to detect the changes that might have caused the bug in the code. 
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+It becomes easy to track changes made by others if you are collaborating on a project. Also, you can revert back to the point earlier in time, and if you have many versions of the same file you can compare them. 
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+pros of manually choosing when to create a commit:
+It will prevent a clutter and will only involve commits that meant a logical change to you rather than making commits of every small details you made changes to. This way, the commits stay meaningful to the user. 
+
+cons: taking a call to make a commit. It can be too small or it can be too large. There is no option to retrive unsaved stuff in case the user forgets to save the file. 
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+It depends upon the purpose of the program that it was created for. Version control systems like Git allow saving multiple files in one commit, because these files may be connected and changing one may affect the other's functionality so it's essential to keep track of all the files when a change is made to one of them or all of them. 
+For google docs, it just isn't used for such files. 
+
+How can you use the commands git log and git diff to view the history of files?
+if we are tracking a repository with a version system, we can use git log to view the history of commits. git log outputs the list of commits with the author name, date and time along with a message that should describe that change that was made in that commit.  
+git diff is used to compare two commits. It indicates the additions as well as the deletions with the help of colors and +- signs. 
+
+How might using version control make you more confident to make changes that could break something?
+while building something I can make commit at different levels in developement and if a bug occurs or if something goes wrong, then I can easily checkout a previous version and can eventually find what caused the bug. 
+
+Now that you have your workspace set up, what do you want to try using Git for?
+To save my commits made on the R scripts.

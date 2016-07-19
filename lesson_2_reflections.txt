@@ -6,3 +6,10 @@ The history of changes will be stored in the folder .git as metadata.
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 Staging area can't be seen, although it is referred to in a very subtle way in the status once you add the files to the staging area using files are ready for commit.  
 Staging area is an intermediate space between the working directory and git repository. Since it makes more sense to add one logical change per commit, Git provides the functionality of committing selected files' changes at once by adding files to the staging area first, then bundleing them up as one commit. 
+
+How can you use the staging area to make sure you have one commit per logical change?
+we can use the command git diff to compare the working directory and the staging area to see what number of changes have been staged to commit. 
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+they will be helpful when you want to try out some experimental features that you are not sure to add to your original file and you also want to keep your original project to show it to others. 
+branches are labels for the commits. When you are at a stage where you want to branch out into two directions for your project, you can create branches to the most recent commit and while you are checkout out into the branch of your choice, the branch name will automatically updated to the most recent commit. That way you can keep working on two different branches of a project and easily swictch by checking out a branch. 

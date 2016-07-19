@@ -13,3 +13,11 @@ we can use the command git diff to compare the working directory and the staging
 What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 they will be helpful when you want to try out some experimental features that you are not sure to add to your original file and you also want to keep your original project to show it to others. 
 branches are labels for the commits. When you are at a stage where you want to branch out into two directions for your project, you can create branches to the most recent commit and while you are checkout out into the branch of your choice, the branch name will automatically updated to the most recent commit. That way you can keep working on two different branches of a project and easily swictch by checking out a branch. 
+
+How do the diagrams help you visualize the branch structure?
+git log --graph --oneline name of the branches we wish to see. 
+They help us out in a few ways:
+1) they let us know the commit at which the branch was created
+2) if the main branch has been updated after that
+3) if more than one branch exists at a commit
+4) what is the tip of branch: most recent commit in the any branch

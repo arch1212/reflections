@@ -21,3 +21,5 @@ They help us out in a few ways:
 2) if the main branch has been updated after that
 3) if more than one branch exists at a commit
 4) what is the tip of branch: most recent commit in the any branch
+5) which commits are there in which branch 
+

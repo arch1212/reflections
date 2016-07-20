@@ -27,3 +27,7 @@ What is the result of merging two branches together? Why do we represent it in t
 A new commit is created using the original file when the branches diverged along with the tips of the two branches.
 Master branch gets updated to this new merged commit and we then delete the other branch since the commits in that branch are now accessible through master branch. 
 we represent it in a diagrom to easily identify the parent of each commit. 
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+pros: you get to decide what goes into the final commit, rather than git choosing it for you, which would require very sophisticated machine learnging and lot of processing and even then it might now function as per your requirement. 
+cons: you get to decide what goes into the final commit so, many times it is the case that you have to pick between very trivial differences in two pieces of code, while merging files. 

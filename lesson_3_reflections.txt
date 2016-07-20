@@ -2,4 +2,5 @@ When would you want to use a remote repository rather than keeping all your work
 When you want to collaborate on a project by making the source code of what you have done available to people, i.e. for open source projects. The other use proprietary storage for company's projects at one place. This one is private and there is no public access. 
 a third use might be for individuals wanting to secure their code by storing it on web. 
 
-
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+because you simply might not want those changes to take effect in your file yet. They may be committed from a different person or a from a different computer, which might interfere with your current progress. 

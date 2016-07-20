@@ -23,3 +23,7 @@ They help us out in a few ways:
 4) what is the tip of branch: most recent commit in the any branch
 5) which commits are there in which branch 
 
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+A new commit is created using the original file when the branches diverged along with the tips of the two branches.
+Master branch gets updated to this new merged commit and we then delete the other branch since the commits in that branch are now accessible through master branch. 
+we represent it in a diagrom to easily identify the parent of each commit. 

@@ -11,3 +11,11 @@ Suppose A has shared his source code for a project on GitHub. If B wants to work
 What is the benefit of having a copy of the last known state of the remote stored locally?
 1)when you are going to work offline, you can fetch last known state of remote stored locally, and can merge the two files if you wish to. 
 2)you can git diff to see what changes you have made since you cloned the repo or fetched it.  
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+As I see it, it must be really hard to to collaborate without github or git. 
+*we will have to keep track of all the changes that we each of us make individually. So, we can keep track all our individual changes in a linear format with accompanied by a small description
+we try to keep each change restricted to one logical change. 
+*when combining two different version of different paths, we compare the two and the original when the two diverged. 
+*in all, we use the various strategies used in git and github but carrying them out them ourselves. 
+this would be really hard and inefficient and it would take major chunk of our time.

@@ -7,3 +7,7 @@ because you simply might not want those changes to take effect in your file yet.
 
 Describe the differences between forks, clones, and branches. When would you use one instead of another?
 Suppose A has shared his source code for a project on GitHub. If B wants to work on it too, he will fork it to get it on his own GitHub profile. By doing so he will not be able to make changes to the original version shared on A's profile. He is just cloning it directly to GitHub. Later if he wants to make changes to the code, he will have to clone it to his own computer. If he wants to test a new feature while working on a main thing, he can create a branch which later can be merged. If it works out and he wants to push these changes to GitHub, the changes can only be made on his forked copy. 
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+1)when you are going to work offline, you can fetch last known state of remote stored locally, and can merge the two files if you wish to. 
+2)you can git diff to see what changes you have made since you cloned the repo or fetched it.  

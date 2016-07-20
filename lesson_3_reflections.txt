@@ -1,1 +1,5 @@
+When would you want to use a remote repository rather than keeping all your work local?
+When you want to collaborate on a project by making the source code of what you have done available to people, i.e. for open source projects. The other use proprietary storage for company's projects at one place. This one is private and there is no public access. 
+a third use might be for individuals wanting to secure their code by storing it on web. 
+
 

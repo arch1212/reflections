@@ -19,3 +19,8 @@ we try to keep each change restricted to one logical change.
 *when combining two different version of different paths, we compare the two and the original when the two diverged. 
 *in all, we use the various strategies used in git and github but carrying them out them ourselves. 
 this would be really hard and inefficient and it would take major chunk of our time.
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+If I am working in a collaborative environment and I am not sure if a particular feature is going to work out, I will start it out on a new branch and make changes from master to this new branch until it is done. This will prevent master to be broken since other people will be working on it too, So I don't want that. 
+Later I can issue a pull request to merge this change into the master. 
+Other advantage is that, when there are too many people involved, they may want to work on something that they believe in so branches open up that option by providing them with the same resource at their discretion. 
